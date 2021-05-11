@@ -2,7 +2,7 @@
 
 ## TCEMAIN.typoscript
 
-````json
+````typoscript
 TCEMAIN {
     linkHandler {
         tx_news {
@@ -32,8 +32,7 @@ TCEMAIN {
 ````
 
 ## Setup.typoscript
-```json
-
+```typoscript
 config {
 	...
 		recordLinks {

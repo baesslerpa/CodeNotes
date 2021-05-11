@@ -31,13 +31,13 @@ styles.content.image.maxWInText = 1200
 
 ## Constants.txt
 
-```json
+```typoscript
 styles.content.textmedia.linkWrap.lightboxCssClass = lightbox
 styles.content.textmedia.linkWrap.lightboxEnabled = 1
 ```
 
 ## Setup.txt
-```json
+```typoscript
 lib.fluidContent.settings.media.popup.linkParams.ATagParams {
     dataWrap = title="{field:imagecaption}" class="{$styles.content.textmedia.linkWrap.lightboxCssClass}" rel="{$styles.content.textmedia.linkWrap.lightboxRelAttribute}"
 }
